@@ -1,0 +1,14 @@
+<bioml>
+	<note label="list path, default parameters" type="input">default_input.xml</note>
+	<note label="list path, taxonomy information" type="input">taxonomy.xml</note>
+
+	<note label="protein, taxon" type="input">human</note>
+	
+	<note label="spectrum, path" type="input">input/pH7_probe.mgf</note>
+	<note label="output, path" type="input">output/pH7_probe.mgf</note>
+	<note label="output, results" type="input">valid</note>
+	<note label="spectrum, fragment monoisotopic mass error" type="input">0.8</note>
+	<note label="spectrum, parent monoisotopic mass error plus" type="input">10</note>
+	<note label="spectrum, parent monoisotopic mass error minus" type="input">10</note>
+	<note label="scoring, maximum missed cleavage sites" type="input">2</note>
+</bioml>

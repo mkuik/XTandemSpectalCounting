@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<bioml>
+	<note type="input" label="list path, default parameters">default_input.xml</note>
+	<note type="input" label="list path, taxonomy information">taxonomy.xml</note>
+
+	<note type="input" label="protein, taxon">human</note>
+	
+	<note type="input" label="spectrum, path"></note>
+	<note type="input" label="output, path">output.xml</note>
+	<note type="input" label="output, results">valid</note>
+	<note type="input" label="spectrum, fragment monoisotopic mass error">0.8</note>
+	<note type="input" label="spectrum, parent monoisotopic mass error plus">10</note>
+	<note type="input" label="spectrum, parent monoisotopic mass error minus">10</note>
+	<note type="input" label="scoring, maximum missed cleavage sites">2</note>
+</bioml>
